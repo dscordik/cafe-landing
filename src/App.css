@@ -291,6 +291,33 @@ button {
     text-align: center;
 }
 
+/* ===== Секции разделены и Корзина оформлена как карточка ===== */
+
+.cart-section,
+.order-section {
+    padding-top: 32px;
+    border-top: 1px solid var(--coffee-200);
+}
+
+.cart-section {
+    background: var(--coffee-100);
+    border-radius: var(--radius);
+    padding: 24px 24px 28px;
+    margin-top: 40px;
+}
+
+.cart-section .section-title {
+    margin-top: 0;
+}
+
+.cart__row {
+    background: white;
+}
+
+.order-section {
+    margin-top: 40px;
+}
+
 /* ===== Адаптив ===== */
 @media (max-width: 640px) {
     .app {
